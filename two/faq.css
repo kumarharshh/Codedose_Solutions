@@ -1,0 +1,20 @@
+#ans1{
+    display: none;
+    padding: 20px;
+}
+#ans2{
+    display: none;
+    padding: 20px;
+}
+.content{
+    padding: 10px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    width: 500px;
+}
+.ques{
+    background-color: rgb(209, 181, 234);
+    padding: 20px;
+    display: block;
+    border: 5px solid rgb(168, 4, 168);
+}
