@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .body{
+            font-family: sans-serif;
+        }
+        .heading{
+            text-align: center;
+        }
+        /* Base styles for the grid */
+        .grid-container {
+            display: grid;
+            gap: 16px;
+            margin: 16px;
+        }
+
+        /* Define a 4-column grid for wider screens */
+        @media screen and (min-width: 1200px) {
+            .grid-container {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Define a 2-column grid for medium screens */
+        @media screen and (max-width: 1199px) and (min-width: 600px) {
+            .grid-container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+        }
+
+        /* Single column grid for smaller screens */
+        @media screen and (max-width: 599px) {
+            .grid-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Style for grid items (placeholders for content) */
+        .grid-item {
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;   
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">Grocery List</h1>
+    <div class="grid-container">
+        <!-- Grid items (replace with your actual content) -->
+        <div class="grid-item">Eggs</div>
+        <div class="grid-item">Bread</div>
+        <div class="grid-item">Butter</div>
+        <div class="grid-item">Apples</div>
+        <!-- Add more items as needed -->
+    </div>
+</body>
+</html>
