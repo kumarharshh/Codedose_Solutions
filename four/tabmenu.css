@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    background-color: rgb(114, 114, 236);
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.impressions{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    padding: 10px;
+}
+.text{
+    padding: 10px;
+    width: 250px;
+
+}
+#content{
+    background-color: rgb(154, 241, 241);
+    width: 440px;
+}
+#r:hover, #p:hover, #t:hover, #r:active, #p:active{
+    background-color: rgb(115, 115, 169)(0, 0, 255, 0.536);
+    border: 2px solid white;
+}
+
+button{
+    background-color: rgb(173, 173, 237);
+    padding: 5px;
+    border: 0px;
+}
