@@ -1,0 +1,23 @@
+#choose{
+    display: none;
+    padding: 30px;
+    background-color: beige;
+    width: 80;
+    text-align: right;
+}
+#opt{
+    border: 2px solid black;
+    margin-left: 45px;
+
+}
+#opt:hover{
+    cursor: hand;
+}
+.btn{
+    padding: 30px;
+    padding-left: 30px;
+}
+.opts:hover{
+    background-color: rgba(0, 255, 255, 0.365);
+    cursor: hand;
+}
